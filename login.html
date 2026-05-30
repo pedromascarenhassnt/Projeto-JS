@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
 </head>
 <body>
-    <div >
+    
+    <div id="fundo">
         <img id="img" src="pear-removebg-preview.png" alt="">
     </div>
-    
 
     <form action="">
 
         <h1>Cadastre-se</h1>
 
         <label class="nome">Nome:</label>
-        <input type="text" placeholder="Digite seu nome:">
-    
+        <input type="text"  placeholder="Digite seu nome:" name="" id="nomeUsuario">
+
         <label for="">Sobrenome:</label>
-        <input type="text"placeholder="Digite seu sobrenome:">
+        <input type="text"placeholder="Digite seu sobrenome:" name="" id="sobrenomeUsuario">
     
         <label for="">Email:</label>
-        <input type="text" placeholder="seuemail@gmail.com">
+        <input type="email" placeholder="seuemail@gmail.com" name="" id="emailUsuario">
         
         <label for="">Senha:</label>
-        <input type="text" placeholder="Crie sua senha">
+        <input type="password" placeholder="Crie sua senha" name="" id="senhaUsuario">
+       
 
-        <button type="submit">Enviar</button>
+        <button type="submit" id="botaoEnviar">Enviar</button>
     
 
     </form>

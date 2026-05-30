@@ -5,8 +5,20 @@
     box-sizing: border-box;
 }
 
+#fundo{
+    display: flex;
+    align-items: center;
+    width: 1850px;
+    height: 800px;
+    background: linear-gradient(to right, #0172d0 65%, white 35%);
+    margin: 80px;
+    border-radius: 20px;
+    
+     
+
+}
 body{
-    background: linear-gradient(to bottom,rgb(0, 0, 0) 20%,#313131 75%,rgb(82, 82, 82) 100%);
+    background: linear-gradient(to bottom, #5EACFF 0%,#386799 100%);
     display:flex;
     justify-content: center;
     align-items: center;
